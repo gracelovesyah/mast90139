@@ -1,0 +1,42 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: Chapter1_Introduction
+  # sections:
+  # file: c1_contents
+- file: Chapter2_Binary_Response
+  sections:
+  - file: c2.1
+  - file: c2.2
+  - file: c2.4
+  - file: c2.5
+  - file: c2.6
+- file: Chapter3_GLM
+  sections:
+  - file: c3.1
+  - file: c3.2
+- file: Chapter4_Categorical_Data_Analysis_by_Logistic_Regression_Models
+  sections:
+  - file: c4.1
+  - file: c4.3
+  - file: c4.6
+- file: Chapter5_Analysis_of_Contingency_Tables_by_Log_Linear_Models
+- file: Practicals
+  sections:
+  - file: tut1
+  - file: tut2
+  - file: tut3
+  - file: tut4
+  - file: tut5
+  - file: tut6
+  - file: tut7
+  - file: tut8
+  - file: tut9
+  - file: tut10
+- file: Random
+  sections:
+  - file: ste(ORestimate)
+- file: testnotes
